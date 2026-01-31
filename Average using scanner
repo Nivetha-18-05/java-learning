@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Average{
+    public static void main(String[] args)
+     {
+    Scanner nivi=new Scanner(System.in);
+    int mark1=nivi.nextInt();
+    int mark2=nivi.nextInt();
+    int mark3=nivi.nextInt();
+    int mark4=nivi.nextInt();
+    int mark5=nivi.nextInt(); 
+    double average=(mark1+mark2+mark3+mark4+mark5)/5.0;
+    System.out.println("Sub 1" + mark1);
+    System.out.println("sub 2" + mark2);
+    System.out.println("sub 3" + mark3);
+    System.out.println("sub 4" + mark4);
+    System.out.println("sub 5" + mark5);
+    System.out.println("average mark" + average);
+     if(average<35){
+        System.out.println("addition class required");
+     }
+     else{
+        System.out.println("u r need to go");
+     }
+     }
+}
